@@ -3,7 +3,7 @@
 	import Two from '$lib/days/2.svelte';
 	import Three from '$lib/days/3.svelte';
 	import Four from '$lib/days/4.svelte';
-	// import Five from '$lib/days/5.svelte';
+	import Five from '$lib/days/5.svelte';
 	// import Six from '$lib/days/6.svelte';
 	// import Seven from '$lib/days/7.svelte';
 	// import Eight from '$lib/days/8.svelte';
@@ -28,8 +28,8 @@
 		{n:1, component: One},
 		{n:2, component: Two},
 		{n:3, component: Three},
-		{n:4, component: Four}
-		// {n:5, component: Five},
+		{n:4, component: Four},
+		{n:5, component: Five},
 		// {n:6, component: Six},
 		// {n:7, component: Seven},
 		// {n:8, component: Eight}
