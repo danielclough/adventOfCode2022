@@ -130,7 +130,7 @@
                     {current.self = whatToDo(current.opponent, round.self) || ""}
                 </p>
                 <p>
-                    Points: {getScore(current.opponent, current.self, "correctTotal")}
+                    {getScore(current.opponent, current.self, "correctTotal") + "  pts. "}
                 </p>
             </div>
         </div>
@@ -153,7 +153,7 @@
                     }).join(' ')}
                 </p>
                 <p>
-                    Points: {getScore(current.opponent, current.self, "wrongTotal")}
+                    {getScore(current.opponent, current.self, "wrongTotal")} pts
                 </p>
             </div>
         </div>
@@ -165,16 +165,11 @@
         margin: 1rem;
     }
 	section {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
 		height: 23vh;
 		overflow: scroll;
 	}
     .wrapper {
         font-size: xx-large;
+        margin: .5rem;
     }
 </style>

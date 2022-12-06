@@ -1,9 +1,11 @@
 <script>
 	import One from '$lib/days/1.svelte';
 	import Two from '$lib/days/2.svelte';
+	import Three from '$lib/days/3.svelte';
 	const days = [
 		{n:1, component: One},
-		{n:2, component: Two}
+		{n:2, component: Two},
+		{n:3, component: Three}
 	]
 	let selected = days[days.length -1]
 </script>
